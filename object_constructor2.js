@@ -1,16 +1,18 @@
 'use strict';
-function Car(make, model, year, runs){
+function Car(make, model, year){
     //or var model, year, runs;
 
-    this.model = "335I";
+    this.carMake = make;
+    this.carModel = model;
+    this.year = year;
 
-    this.runs = function(){
+    /*this.runs = function(){
         console.log('the car runs fast');
     };
-
+    */
 
 }
-var bmw = new Car();
+/*var bmw = new Car();
 bmw.make = 'BeeMer';
 bmw.model = '335I';
 bmw.year = '1998';
@@ -26,3 +28,8 @@ console.log(mercedes.make);
 console.log(mercedes.model);
 console.log(mercedes.year);
 console.log(mercedes.runs());
+*/
+var bmw = new Car('BMW', '335i', 2021);
+console.log(bmw.carMake);
+console.log(bmw.carModel);
+console.log(bmw.year);

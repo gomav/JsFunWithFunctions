@@ -6,7 +6,7 @@
 run();
 */
 //using anonymous closures, the function is wrapped in a parenthesis to run - a
-//self-executed function 
+//self-executed function
 (function(){
     console.log('foo');
 })();

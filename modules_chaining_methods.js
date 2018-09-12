@@ -9,11 +9,15 @@ var run=(function(){
             var allArguments = arguments[0] || '';
             var myStatements = allArguments.topSpeed || DEFAULTS. topSpeed;
             console.log(myStatements);
+
+            return this;
         },
         horsePower: function(){
             var additionalArguments = arguments[0] || '';
             var topHorsePowerChecking = additionalArguments.topHorsePower || DEFAULTS. topHorsePower;
             console.log(topHorsePowerChecking);
+
+            return this;
         }
     };
 })();

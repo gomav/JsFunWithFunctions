@@ -1,2 +1,13 @@
 'use strict';
-console.log('By God! It works!');
+var imageGallery = (function(){
+
+    return {
+
+        display: function(){
+
+            console.log("By God! This shit works!");
+
+        }
+    };
+
+})();
